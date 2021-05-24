@@ -1,0 +1,20 @@
+@import "~@blueprintjs/core/src/common/variables";
+@import "~@blueprintjs/core/src/common/colors";
+
+$pt-font-family: "Proxima Nova", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Icons16", sans-serif;
+
+$icon-font-path: "../resources/icons";
+
+@import "~@blueprintjs/core/src/reset";
+@import "~@blueprintjs/core/src/typography";
+@import "~@blueprintjs/core/src/accessibility/focus-states";
+
+@import "base";
+
+@import "~@blueprintjs/core/src/components/index";
+@import '~@blueprintjs/popover2/src/blueprint-popover2.scss';
+
+@import "~@blueprintjs/icons/src/blueprint-icons.scss";
+@import "~@blueprintjs/select/src/blueprint-select.scss";
+@import "~@blueprintjs/popover2/src/blueprint-popover2.scss";
+@import "~@blueprintjs/table/src/table.scss";
