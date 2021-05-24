@@ -48,8 +48,13 @@ const Layout1 = ({ children }) => {
   );
 };
 
+Navbar.displayName = 'Navbar';
 Layout1.Navbar = Navbar;
+
+Main.displayName = 'Main';
 Layout1.Main = Main;
+
+Aside.displayName = 'Aside';
 Layout1.Aside = Aside;
 
 export default Layout1;
